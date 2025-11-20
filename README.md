@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🛒 Supermarket Scraping Workflow
 
-## Getting Started
+> **Course Project**: Build an AI-powered scraping workflow to compare supermarket prices.
 
-First, run the development server:
+[![Project Preview](public/thumbnail-image.png)](https://youtu.be/dQw4w9WgXcQ?si=UAxYFsJR7SijZyGO)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 About The Project
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This project is a practical example built for a YouTube course covering **Workflows**, **Web Scraping**, and the **AI SDK**. 
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The application demonstrates how to orchestrate complex background tasks to compare product prices between two major supermarkets: **Fidalga** and **Hipermaxi**. By simply entering a products list, the system spins up a workflow that scrapes real-time data, processes the results, and presents the best options to the user.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## ✨ Key Features
 
-## Learn More
+- **⚡ Intelligent Workflows**: Orchestrates multiple scraping steps using the `Vercel Workflow` SDK.
+- **🕸️ Multi-Source Scraping**: Fetches live product data from Fidalga and Hipermaxi simultaneously.
+- **🧠 AI Integration**: Uses AI to process and normalize product data (as part of the course curriculum).
+- **🔄 Real-time Feedback**: Streams workflow progress and results directly to the UI using Server-Sent Events (SSE) or similar streaming patterns.
+- **🎨 Modern UI**: Built with **Next.js 16+** and **Tailwind CSS 4** for a sleek, responsive experience.
 
-To learn more about Next.js, take a look at the following resources:
+## 🛠️ Tech Stack
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Framework**: [Next.js 16](https://nextjs.org/) (App Router)
+- **Styling**: [Tailwind CSS 4](https://tailwindcss.com/)
+- **Workflow Engine**: [Workflow Vercel SDK](https://useworkflow.dev/)
+- **Language**: TypeScript
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🚦 Getting Started
 
-## Deploy on Vercel
+Follow these steps to set up the project locally.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Prerequisites
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-username/workflow-ai-scraping.git
+   cd workflow-ai-scraping
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   # or
+   pnpm install
+   # or
+   yarn install
+   ```
+
+3. **Run the development server**
+   ```bash
+   npm run dev
+   ```
+
+4. **Open your browser**
+   Navigate to `http://localhost:3000` to see the app in action.
+
+## 📚 Course Modules
+
+This project covers the following concepts:
+
+1.  **Workflows**: How to define, execute, and monitor durable background jobs.
+2.  **Scraping**: Techniques for extracting data from modern web applications.
+3.  **AI SDK**: integrating LLMs to make sense of unstructured scraped data.
+
+---
+
+*Built with ❤️ for the community.*
