@@ -2,7 +2,7 @@
 
 > **Course Project**: Build an AI-powered scraping workflow to compare supermarket prices.
 
-[![Project Preview](public/thumbnail-image.png)](https://youtu.be/dQw4w9WgXcQ?si=UAxYFsJR7SijZyGO)
+[![Project Preview](public/thumbnail-image.png)](https://youtu.be/H3DIE2L8UhE)
 
 ## 🚀 About The Project
 
